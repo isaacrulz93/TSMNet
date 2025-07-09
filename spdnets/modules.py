@@ -4,7 +4,7 @@ import torch
 from torch import Tensor
 from torch.nn.parameter import Parameter
 from torch.types import Number
-import torch.nn as nn
+from torch import nn
 from geoopt.tensor import ManifoldParameter
 from geoopt.manifolds import Stiefel, Sphere
 from . import functionals

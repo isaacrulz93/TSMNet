@@ -1,5 +1,5 @@
-from moabb.datasets.bnci import BNCI2014001 as moabbBNCI2014001
-from moabb.datasets.bnci import BNCI2015001 as moabbBNCI2015001
+from moabb.datasets.bnci import BNCI2014_001 as moabbBNCI2014001
+from moabb.datasets.bnci import BNCI2015_001 as moabbBNCI2015001
 from moabb.datasets import Lee2019_MI as moabbLee2019
 
 from .base import PreprocessedDataset, CachableDatase
